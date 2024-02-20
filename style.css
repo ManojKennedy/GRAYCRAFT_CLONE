@@ -632,6 +632,10 @@ footer h1{
     footer h1{
         font-size: 35px;
     }
+    .side_a{
+	left: 40px;
+	position: relative;
+    }
 }
 @media only screen and (max-width: 450px){
     .hero h1{
@@ -783,7 +787,7 @@ footer h1{
         width: 250px !important;
     }
     .side_a{
-        margin-left: 10% !important;
+        margin-left: -10% !important;
         width: 300px;
     }
     footer{
