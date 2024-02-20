@@ -1,0 +1,806 @@
+body{
+    transform: translate3d(0px, 0px ,0px);
+}
+.hero{
+    background-image: url("background.png");
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    width: 101.1%;
+    padding-bottom: 200px;
+    margin-top: -1%;
+    margin-left: -0.6%;
+    margin-right: -1%;
+    text-align: center;
+    color: white;
+}
+.left{
+    font-family: 'Roboto', sans-serif;
+    line-height: 5px;
+    font-size: 12px;
+    color: white;
+}
+.Logo a img{
+    width: 300px;
+}
+.menu{
+    width: 100px;
+    height: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 4%;
+    position: sticky;
+    width: 95%;
+    top: 10px;
+    background-color: transparent;
+    
+}
+.hero h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    margin-top: -120px;
+    font-weight: 600;
+    width: 100%;
+    padding-top: 17%;
+    line-height: 100px;
+}
+.hero p{
+    width: 340px;
+    font-family: monospace;
+    font-size: 13.5px;
+    margin: auto;
+    color: rgb(213, 213, 213);
+    margin-top: -80px;
+}
+
+.hero img{
+    width: 155px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    border-radius: 3px;
+}
+.omega{
+    background-image: url("https://graycraft.com/img/omega-wars/bg.png");
+    background-size: cover;
+    width: 101.1%;
+    padding-bottom: 200px;
+    margin-top: -1%;
+    margin-left: -0.6%;
+    margin-right: -1%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.omega h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 670%;
+    margin-top: 0;
+    font-weight: 600;
+    width: 100%;
+    line-height: 100px;
+}
+.subhead{
+    font-family: 'Roboto', sans-serif;
+}
+.para{
+    width: 330px;
+    font-family: monospace;
+    font-size: 13.5px;
+    margin-top: -60px;
+    color: rgb(213, 213, 213);
+}
+.omegacontent{
+    margin-top: 150px;
+}
+
+.play{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 45%;
+    left: 45%;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 25px 22px 30px;
+    clip-path: polygon(30% 0, 100% 0, 100% 20%, 100% 70%, 73% 100%, 0% 100%, 0% 80%, 0 32%);
+}
+.outline{
+    width: 45%;
+    height: 400px;
+    border: 1px dashed gainsboro;
+    padding: 10px;
+    margin-top: 200px;
+}
+.video{
+    background-image: url("https://graycraft.com/_vercel/image?url=/img/omega-wars/video-thumb.png&w=1536&q=100");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.project{
+    width: 101.1%;
+    
+    margin-top: -1%;
+    margin-left: -0.6%;
+    margin-right: -1%;
+    color: white;
+    background-color: black;
+}
+.project h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 670%;
+    margin-top: 0;
+    font-weight: 600;
+    width: 100%;
+    line-height: 100px;
+}
+
+.para1{
+    width: 350px;
+    font-family: monospace;
+    font-size: 13.5px;
+    color: rgb(213, 213, 213);
+    margin-top: -60px;
+}
+.videohover{
+    mask-image: linear-gradient(180deg, rgb(139, 139, 139), transparent);
+    width: 100%;
+}
+
+.content{
+    margin-top: -540px;
+    margin-left: 10%;
+    mask-image: linear-gradient(white,white);
+    height: 550px;
+}
+
+.whitedot{
+    width: 155px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    border-radius: 3px;
+}
+
+.whitedot1{
+    width: 55px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    border-radius: 3px;
+}
+.whitedot1 img{
+    width: 155px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+
+/* .whitedot1{
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+} */
+.scorpion{
+    background-image: url("https://graycraft.com/img/scorpion/home_background.png");
+    background-size: cover;
+    width: 101.1%;
+    padding-bottom: 100px;
+    margin-left: -0.6%;
+    margin-right: -1%;
+    color: white;
+    background-color: black;
+}
+.scorpion h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 670%;
+    margin-top: 0;
+    font-weight: 600;
+    width: 100%;
+    line-height: 100px;
+}
+
+.para2{
+    font-family: 'Roboto', sans-serif;
+    width: 450px;
+    font-size: 20px;
+    color: rgb(213, 213, 213);
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.scorpioncontent{
+    padding-top: 300px;
+    margin-left: 130px;
+}
+.lore{
+    background-image: url("https://graycraft.com/_vercel/image?url=/img/home/image-1.png&w=1280&q=100");
+    width: 101.1%;
+    padding-bottom: 100px;
+    margin-left: -0.6%;
+    margin-right: -1%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    background-color: rgb(19, 17, 17);
+    color: white;
+}
+.lorecontent1 h3{
+    font-size: 30px;
+    width: 410px;
+}
+.lorecontent1{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 250px;
+    margin-left: 130px;
+}
+.lorecontent2 p{
+    font-family: monospace;
+    width: 340px;
+    font-size: 13.5px;
+    color: rgb(213, 213, 213);
+}
+
+.lorecontent2{
+    margin-left: 350px;
+}
+
+.gray{
+    background-image: url("https://graycraft.com/img/home/gray_inc.png");
+    background-size: cover;
+    width: 101.1%;
+    padding-bottom: 150px;
+    margin-left: -0.6%;
+    margin-right: -1%;
+    color: white;
+    background-color: black;
+}
+.gray h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 670%;
+    margin-top: 0;
+    font-weight: 600;
+    width: 100%;
+    line-height: 100px;
+}
+.graycontent{
+    padding-top: 300px;
+    margin-left: 130px;
+}
+input{
+    width: 300px;
+    height: 60px;
+    margin: 20px ;
+}
+.floating-label-group {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+
+	.floating-label {
+        font-family: monospace;
+		color: #404040;
+        height: 10px;
+		position: absolute;
+		background-color: white;
+		pointer-events: none;
+		top: 30px;
+		left: 35px;
+		transition: all 0.2s linear;
+	}
+
+	input:focus ~ .floating-label{
+		top: 12px;
+		bottom: 0px;
+		border-color: none ;
+		color: #404040;
+	}
+}
+.floating-label-group1 {
+	position: relative;
+	
+
+	.floating-label {
+        font-family: monospace;
+		color: #404040;
+        height: 10px;
+		position: absolute;
+		background-color: white;
+		pointer-events: none;
+		top: -10px;
+		left: 35px;
+		transition: all 0.2s linear;
+	}
+
+	input:focus ~ .floating-label
+	{
+		top: -30px;
+		bottom: 0px;
+		border-color: none ;
+		color: #404040;
+	}
+}
+.form-control1{
+    width: 650px;
+}
+
+.contact .para1{
+    margin-left: 300px;
+    color: black;
+}
+.contact .para2{
+    margin-left: 22px;
+}
+.contacthead{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 505px;
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 1310px;
+    border: 1px dashed gray;
+    clip-path: polygon(0% 0, 100% 0, 100% 20%, 100% 70%, 82% 100%, 0% 100%, 0% 80%, 0 32%);
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.para3{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    font-size: 10px;
+}
+footer .para1{
+    margin-top: 50px;
+    color: black;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+footer h1{
+    margin-top: -5px;
+    margin-bottom: -15px;
+    font-size: 50px;
+}
+.last a{
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 11px;
+    margin-left: 8%;
+}
+.last .para1{
+    font-size: 11px;
+    color: black;
+}
+.last{
+    width: 80%;
+    border-bottom: 1px dashed black;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+.break{
+    display: none;
+}
+.social img{
+    width: 50px;
+}
+@media only screen and (max-width: 861px)  {
+    .hero{
+        margin-left: -8px;
+        width: 102%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 130px;
+    }
+    .hero h1{
+        padding-top: 120px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .hero p{
+        margin-top: -30px;
+        font-size: 10px;
+        width: 250px;
+    }
+    .hero img{
+        width: 100px;
+    }
+    .whitedot{
+        width: 100px;
+    }
+    .omega{
+        margin-left: -8px;
+        width: 102%;
+        background-size: 100%;
+        padding-bottom: 135px;
+        padding-top: 100px;
+        background-repeat: no-repeat;
+    }
+    .omega p{
+        margin-top: -60px;
+        font-size: 10px;
+        width: 250px;
+        margin-bottom: -10px;
+        margin-left: 10px;
+    }
+    .omega h1{
+        padding-top: 110px;
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 70px;
+        margin-top: -110px;
+    }
+    .omegacontent{
+        margin-top: 50px;
+    }
+    .subhead{
+        font-size: 12px;
+    }
+    .outline{
+        height: 200px;
+        margin-top: 0px;
+    }
+    .project{
+        margin-left: -8px;
+        width: 102%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: -180px;
+    }
+    .project h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 80px;
+        margin-top: 200px;
+    }
+    .project p{
+        font-size: 10px;
+        width: 250px;
+    }
+    .content{
+        margin-bottom: -100px;
+    }
+    .scorpion{
+        margin-left: -10px;
+        width: 102%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;
+    }
+    .scorpion p{
+        font-size: 10px;
+        width: 250px;
+        margin-bottom: 0px;
+    }
+    .scorpion h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 70px;
+    }
+    .scorpioncontent{
+        padding-top: 200px;
+        margin-left: 80px;
+    }
+    .lore{
+        margin-left: -10px;
+        width: 102%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-bottom: 50px;
+    }
+    .lorecontent1{
+        padding-top: 70px;
+        margin-left: 80px;
+    }
+    .lorecontent1 h3{
+        font-size: 20px;
+        width: 290px;
+    }
+    .lorecontent2 p{
+        font-size: 10px;
+        width: 250px;
+        margin-left: 0px;
+    }
+    .gray{
+        margin-left: -10px;
+        width: 102%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .graycontent{
+        padding-top: 150px;
+        margin-left: 80px;
+    }
+    .gray h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 70px;
+    }
+    .gray p{
+        font-size: 10px;
+        width: 240px;
+    }
+    .floating-label-group1 input{
+        width: 170px;
+        height: 30px;
+        margin: 2.5px;
+    }
+    .floating-label-group1 label{
+        font-size: 10px;
+    }
+    .floating-label-group label{
+        font-size: 10px;
+    }
+    .floating-label-group input{
+        width: 360px;
+        height: 30px;
+        margin: 2.5px;
+    }
+    .contact .para1{
+        font-size: 10px;
+        width: 250px;
+        margin-left: 120px;
+        margin-top: -15px;
+    }
+    .robo{
+        width: 250px;
+    }
+    .whitedot1 img{
+        width: 100px;
+        margin-left: -10px;
+        margin-top: -100px;
+    }
+    .floating-label-group {
+        position: relative;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    
+        .floating-label {
+            font-family: monospace;
+            color: #404040;
+            height: 10px;
+            position: absolute;
+            background-color: white;
+            pointer-events: none;
+            top: 10px;
+            left: 15px;
+            transition: all 0.2s linear;
+        }
+    
+        input:focus ~ .floating-label{
+            top: -3px;
+            bottom: 0px;
+            border-color: none ;
+            color: #404040;
+        }
+    }
+    .floating-label-group1 {
+        position: relative;
+        
+    
+        .floating-label {
+            font-family: monospace;
+            color: #404040;
+            height: 10px;
+            position: absolute;
+            background-color: white;
+            pointer-events: none;
+            top: 0px;
+            left: 15px;
+            transition: all 0.2s linear;
+        }
+    
+        input:focus ~ .floating-label
+        {
+            top: -13px;
+            bottom: 0px;
+            border-color: none ;
+            color: #404040;
+        }
+    }
+    .form-control1{
+        width: 450px;
+    }
+    .contacthead{
+        padding-top: 50px;
+        margin-top: 100px;
+        height: 245px;
+        width: 700px;
+    }
+    footer .para1{
+        font-size: 10px;
+        width: 250px;
+    }
+    footer h1{
+        font-size: 35px;
+    }
+    .side_a{
+        left:40px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 450px){
+    .hero h1{
+        width: 310px;
+        margin: auto;
+        font-size: 60px;
+        padding-top: 280px;
+        text-align: center;
+        margin-top: -120px;
+    }
+    header{
+        position: sticky;
+    }
+    header .left{
+        display: none;
+    }
+    .hero p{
+        margin-top: 30px;
+        font-size: 16px;
+        width: 310px;
+    }
+    .hero{
+        background-size: 350%;
+        width: 102%;
+        margin-top: -10px;
+        background-position-x: center;
+    }
+    .hero a img{
+        width: 200px;
+    } 
+    .omega{
+        background-size: 350%;
+        margin-top: -10px;
+        background-position-x: center;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: flex-start;
+    }
+    .outline{
+        width: 85%;
+        margin: auto;
+    }
+    .play{
+        padding: 20px 15px 12px 20px;
+    }
+    .omega h1{
+        font-size: 60px;
+    }
+    .omegacontent{
+        margin-top: 130px;
+        margin-left: 5%;
+    }
+    .omega p{
+        font-size: 16px;
+    }
+    .whitedot{
+        width: 200px;
+    }
+    .project{
+        margin-top: 525px;
+        background-image: url("background3.png");
+        background-size: 350%;
+        background-position-x: -600px;
+    }
+    
+    .videohover{
+        display: none;
+    }
+    .content{
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .content h1{
+        font-size: 60px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .content .whitedot{
+        margin-bottom: 30px;
+        margin-top: -20px;
+    }
+    .break{
+        display: block;
+    }
+    .scorpion{
+        background-size: 350%;
+        margin-top: 180px;
+        background-position-x: -620px;
+    }
+    .scorpion h1{
+        font-size: 60px;
+        margin-top: 10px;
+    }
+    .scorpion p{
+        font-size: 16px;
+    }
+    .scorpioncontent{
+        margin-left: 5%;
+        padding-top: 370px;
+    }
+    .lore{
+        background-size: 150%;
+        margin-top: -3px;
+        background-position-x: center;
+    }
+    .lorecontent1{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 5%;
+    }
+    .lorecontent1 h3{
+        font-size: 30px;
+        width: 310px;
+    }
+    .lorecontent2{
+        margin-left: 5%;
+    }
+    .lorecontent2 p{
+        font-size: 16px;
+    }
+    .gray{
+        background-size: 350%;
+        margin-top: -3px;
+        background-position-x: center;
+    }
+    .graycontent h1{
+        font-size: 60px;
+    }
+    .graycontent p{
+        font-size: 16px;
+    }
+    .graycontent{
+        margin-left: 5%;
+        padding-top: 300px;
+        margin-bottom: -80px;
+    }
+    .robo{
+        display: none;
+    }
+    .contacthead{
+        width: 95%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        clip-path: none;
+    }
+    input{
+        width: 250px !important;
+    }
+    .side_a{
+        margin-left: -10% !important;
+        width: 300px;
+    }
+    footer{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .floating-label-group{
+        width: 300px;
+    }
+    .contact .para1{
+        display: none;
+    }
+    .contact .para2{
+        width: 100px;
+    }
+}  
